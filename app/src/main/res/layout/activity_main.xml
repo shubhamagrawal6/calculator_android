@@ -45,7 +45,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/clear" />
+                android:text="@string/clear"
+                android:background="@drawable/circle" />
 
             <Button
                 android:id="@+id/parenthesesBTN"
@@ -53,6 +54,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/parentheses" />
 
             <Button
@@ -61,6 +63,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/exponent" />
 
             <Button
@@ -69,7 +72,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/divide" />
+
         </TableRow>
 
         <TableRow
@@ -82,6 +87,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/seven" />
 
             <Button
@@ -90,6 +96,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/eight" />
 
             <Button
@@ -98,6 +105,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/nine" />
 
             <Button
@@ -106,7 +114,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/multiply" />
+
         </TableRow>
 
         <TableRow
@@ -119,6 +129,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/four" />
 
             <Button
@@ -127,6 +138,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/five" />
 
             <Button
@@ -135,6 +147,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/six" />
 
             <Button
@@ -143,7 +156,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/subtract" />
+
         </TableRow>
 
         <TableRow
@@ -156,6 +171,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/one" />
 
             <Button
@@ -164,6 +180,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/two" />
 
             <Button
@@ -172,6 +189,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/three" />
 
             <Button
@@ -180,6 +198,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/add" />
 
         </TableRow>
@@ -194,6 +213,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/plusMinus" />
 
             <Button
@@ -202,6 +222,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/zero" />
 
             <Button
@@ -210,6 +231,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/point" />
 
             <Button
@@ -218,6 +240,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:text="@string/equals" />
 
         </TableRow>
