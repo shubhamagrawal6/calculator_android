@@ -1,8 +1,9 @@
 package com.shubhamagrawal.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import org.mariuszgromada.math.mxparser.*;
 import android.os.Bundle;
+import android.text.SpannableStringBuilder;
 import android.view.View;
 import android.widget.EditText;
 
@@ -51,16 +52,33 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void equalsBTN(View view){
+        String userExp = display.getText().toString();
 
+        userExp = userExp.replaceAll("÷", "/");
+        userExp = userExp.replaceAll("×", "*");
+
+        Expression exp = new Expression(userExp);
+
+        String result = String.valueOf(exp.calculate());
+
+        display.setText(result);
+        display.setSelection(result.length());
     }
 
     public void backspaceBTN(View view){
-
+        int cursorPos = display.getSelectionStart();
+        int textLen = display.getText().length();
+        
+        if (cursorPos != 0 && textLen != 0){
+            SpannableStringBuilder selection = (SpannableStringBuilder) display.getText();
+            selection.replace(cursorPos-1, cursorPos, "");
+            display.setText(selection);
+            display.setSelection(cursorPos-1);
+        }
     }
 
     public void zeroBTN(View view){
         updateText("0");
-
     }
 
     public void oneBTN(View view){
@@ -120,12 +138,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void parenthesesBTN(View view){
-
+        updateText("()");
     }
 
     public void exponentBTN(View view){
         updateText("^");
-
     }
 
     public void pointBTN(View view){

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">calculator_android</string>
+    <string name="app_name">Calculator</string>
 
     <string name="zero">0</string>
     <string name="one">1</string>
